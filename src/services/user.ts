@@ -3,7 +3,6 @@ import JWT from "jsonwebtoken";
 import { prismaClient } from "../lib/db";
 
 const SECRET_KEY = "flash";
-
 export interface CreateUserPayload {
   firstName: string;
   lastName?: string;
